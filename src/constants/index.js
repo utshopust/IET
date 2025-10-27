@@ -73,97 +73,97 @@ export const SERVICES_CONTENT = [
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
-    name: "Modern Kitchen Renovation",
+    name: "Engine Air Intake Optimization",
     description:
-      "A complete overhaul of a traditional kitchen, featuring custom cabinetry, granite countertops, and state-of-the-art appliances.",
+      "Breathe Easy, Drive Hard. A high-flow air filter is critical for performance and engine health. We provide and install top-tier intake systems designed to improve horsepower, torque, and overall engine efficiency.",
     image: portfolio1,
     link: "#",
   },
   {
     id: 2,
-    name: "Luxurious Bathroom Remodel",
+    name: "Routine Maintenance & Service",
     description:
-      "Transformed an outdated bathroom into a spa-like retreat with marble tiling, a glass shower, and modern fixtures.",
+      "The Spark of Reliability. Don't overlook the essentials. Our routine maintenance services, including professional spark plug replacement, ignition checks, and thorough inspections, keep your engine starting strong and running smoothly.",
     image: portfolio2,
     link: "#",
   },
   {
     id: 3,
-    name: "Outdoor Living Space",
+    name: "Tire Sales & Expert Fitting",
     description:
-      "Designed a beautiful outdoor living area, complete with a pergola, fire pit, and cozy seating for entertainment.",
+      "Your Connection to the Road. The right tires are paramount for safety and performance. We offer a comprehensive range of seasonal and performance tires, complete with expert fitting, balancing, and alignment services.",
     image: portfolio3,
     link: "#",
   },
   {
     id: 4,
-    name: "Elegant Living Room Update",
+    name: "Custom Vehicle Lighting & Aesthetics",
     description:
-      "Updated a living room with new flooring, stylish lighting, and custom-built shelving units.",
+      "Bold Looks, Enhanced Visibility. Give your vehicle a distinctive, aggressive edge with professional lighting upgrades. We specialize in custom headlight and exterior lighting installations that stand out both day and night.",
     image: portfolio4,
     link: "#",
   },
   {
     id: 5,
-    name: "Basement Conversion",
+    name: "Precision Performance Tuning",
     description:
-      "Converted an unused basement into a modern, multi-functional space including a home theater, gym, and guest bedroom.",
+      "Mastering the Mechanics. We focus on the fine-tuned details that deliver maximum performance and reliability. From advanced suspension systems to essential fluid dynamics, our expert technicians ensure every component operates at its peak.",
     image: portfolio5,
     link: "#",
   },
   {
     id: 6,
-    name: "Home Office Transformation",
+    name: "Premium Alloy Wheels & Rims",
     description:
-      "Created a sleek and functional home office, optimizing space with ergonomic furniture, ample storage, and modern decor.",
+      "Style Meets Strength. Upgrade your ride's aesthetic and handling with our selection of high-quality alloy wheels. We stock, fit, and balance a wide range of premium rims, combining durability with head-turning design.",
     image: portfolio6,
     link: "#",
   },
 ];
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with VastuSpaze. We take pride in our work and are committed to delivering top-notch home renovation services.",
+  text: "Hear what our clients have to say about their experiences with Motor Vehicle Engineering. We take pride in our work and are committed to delivering top-notch home renovation services.",
   reviews: [
     {
       name: "Alice Johnson",
       title: "Homeowner",
       review:
-        "VastuSpaze transformed our outdated kitchen into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
+        "Motor Vehicle Engineering transformed  into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
       image: user1,
     },
     {
       name: "Bob Smith",
       title: "Homeowner",
       review:
-        "Our bathroom renovation was seamless, thanks to VastuSpaze. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
+        "My Card renovation was seamless, thanks to Motor Vehicle Engineering. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
       image: user2,
     },
     {
       name: "Carla Mendes",
       title: "Homeowner",
       review:
-        "VastuSpaze helped us create the perfect outdoor living space. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
+        "Motor Vehicle Engineering helped us create the perfect Car. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
       image: user3,
     },
     {
       name: "David Lee",
       title: "Homeowner",
       review:
-        "The living room update exceeded our expectations. VastuSpaze's team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
+        "The Car update exceeded our expectations. Motor Vehicle Engineering team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
       image: user4,
     },
     {
       name: "Ella Fernandez",
       title: "Homeowner",
       review:
-        "From start to finish, VastuSpaze was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
+        "From start to finish, Motor Vehicle Engineering was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
       image: user5,
     },
     {
       name: "Frank Wilson",
       title: "Homeowner",
       review:
-        "VastuSpaze did an amazing job on our basement conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
+        "Motor Vehicle Engineering did an amazing job on our Car conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
       image: user6,
     },
   ],

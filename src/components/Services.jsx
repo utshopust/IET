@@ -25,7 +25,7 @@ const Services = () => {
                                 {service.title}
                             </h3>
 
-                            <p className="mb-4 lg:tracking-wide text-lg lg:text-xl lg:leading-9">
+                            <p className="mb-4 lg:tracking-wide text-lg lg:text-xl lg:leading-9 ">
                                 {service.description}
                             </p>
 
