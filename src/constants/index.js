@@ -48,25 +48,25 @@ export const HERO_CONTENT = {
 
 export const SERVICES_CONTENT = [
   {
-    title: "Kitchen Renovation",
+    title: "✨ Expert Diagnostics and Repair",
     description:
-      "Transform your kitchen into a modern, functional space with our comprehensive renovation services. From custom cabinetry to state-of-the-art appliances, we handle all aspects of kitchen remodeling.",
+      "Precision Service for Your Vehicle. We provide comprehensive services from routine maintenance to complex repairs, ensuring your vehicle is running at peak performance. Our state-of-the-art facility is equipped to handle all major makes and models.",
     image: kitchenImage,
-    alt: "Kitchen Renovation",
+    alt: "✨ Expert Diagnostics and Repair",
   },
   {
-    title: "Bathroom Renovation",
+    title: "🔧 Full-Service Mechanical Bay",
     description:
-      "Create a spa-like retreat in your home with our bathroom renovation services. We offer luxurious fixtures, custom tiling, and innovative designs to elevate your bathroom experience.",
+      "Quality Repairs You Can Trust. From tire service and wheel alignment to undercarriage inspections and mechanical overhauls, our dedicated bays and professional equipment ensure high-quality workmanship for every service we perform.",
     image: bathroomImage,
-    alt: "Bathroom Renovation",
+    alt: "🔧 Full-Service Mechanical Bay",
   },
   {
-    title: "Living Room Renovation",
+    title: "💻 Advanced Software Tuning and Coding",
     description:
-      "Update your living room with our expert renovation services. We offer custom designs, new flooring options, and stylish lighting solutions to create a warm and inviting space for your family and guests.",
+      "Optimizing Performance with Technology. Our technicians use the latest diagnostic tools and specialized software to perform advanced coding, tuning, and system resets, unlocking your car's true potential and addressing electronic issues with precision.",
     image: livingRoomImage,
-    alt: "Living Room Renovation",
+    alt: "💻 Advanced Software Tuning and Coding",
   },
 ];
 
