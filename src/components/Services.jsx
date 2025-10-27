@@ -1,43 +1,66 @@
 import { SERVICES_CONTENT } from "../constants";
+import { motion } from "framer-motion";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 50 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.2, duration: 0.6, ease: "easeOut" },
+  }),
+};
+
 const Services = () => {
-    return (
-       <section className="max-w-7xl mx-auto border-b-2" id="services">
-        <div className="my-20 ">
-            <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mb-20">
-                Our Services
-            </h2>
+  return (
+    <section id="services" className="max-w-7xl mx-auto border-b-2 px-4 py-20">
+      {/* Section Title */}
+      <motion.h2
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="text-center text-2xl lg:text-4xl font-semibold uppercase tracking-wider mb-16"
+      >
+        Our Services
+      </motion.h2>
 
-            {
-                SERVICES_CONTENT.map((service, index)=>(
-                    <div key={index} className="mb-12 mx-4 flex flex-col lg:flex-row">
-                        <div className={`lg:w-1/2 mb-4 lg:mb-0 ${
-                            index%2===0 ? "" : "lg:order-2"
-                        }`}>
-                            <img src={service.image} alt={service.title} className="w-full h-auto object-cover rounded-lg" />
-                            
-                        </div>
+      <div className="space-y-20">
+        {SERVICES_CONTENT.map((service, index) => (
+          <motion.div
+            key={index}
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="visible"
+            custom={index}
+            viewport={{ once: true }}
+            className={`flex flex-col lg:flex-row items-center gap-10 ${
+              index % 2 !== 0 ? "lg:flex-row-reverse" : ""
+            }`}
+          >
+            {/* Service Image */}
+            <div className="lg:w-1/2 relative group overflow-hidden rounded-2xl shadow-lg">
+              <img
+                src={service.image}
+                alt={service.title}
+                className="w-full h-[300px] lg:h-[400px] object-cover transform transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
 
-                        <div className={`lg:w-1/2 flex flex-col ${
-                            index % 2 ===0 ? "lg:pl-12" : "pr-12" 
-                        }`}>
-
-                            <h3 className="text-xl lg:text-2xl font-medium mb-2">
-                                {service.title}
-                            </h3>
-
-                            <p className="mb-4 lg:tracking-wide text-lg lg:text-xl lg:leading-9 ">
-                                {service.description}
-                            </p>
-
-                        </div>
-                    </div>
-                ))
-            }
-
-        </div>
-
-       </section>
-    );
+            {/* Service Content */}
+            <div className="lg:w-1/2">
+              <h3 className="text-2xl lg:text-3xl font-semibold mb-4 text-gray-800">
+                {service.title}
+              </h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                {service.description}
+              </p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Services;
