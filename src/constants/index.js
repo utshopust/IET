@@ -173,14 +173,15 @@ export const CONTACT_INFO = {
   text: "Have questions or need more information? Get in touch with us, and we ll be happy to assist you.",
   phone: {
     label: "Phone",
-    value: "(123) 456-7890",
+    value: "+8801906484869",
   },
   email: {
     label: "Email",
-    value: "info@vastuspaze.com",
+    value: "info@iet.org.bd.com",
   },
   address: {
     label: "Address",
-    value: "1234 Renovation Ave, Suite 100, Your City, ST 56789",
+    value: "Muktijoddha Road-3 Block-A, Sayed Nagar, Vatara Dhaka 1212",
   },
 };
+

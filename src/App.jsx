@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
+import ContactUs from "./components/ContactUs";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Portfolio />
       <About />
       <Reviews />
+      <ContactUs />
     </main>
   );
 };
