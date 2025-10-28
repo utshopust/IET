@@ -8,7 +8,6 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import It from "./components/It";
 
-
 const App = () => {
   return (
     <main className="overflow-x-hidden antialiased text-neutral-800">
@@ -26,5 +25,3 @@ const App = () => {
 };
 
 export default App;
-
-

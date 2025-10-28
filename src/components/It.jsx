@@ -71,7 +71,7 @@ const It = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
           <a
-            href="tel:0172175191"
+            href="tel:01721751591"
             className="flex items-center justify-center gap-2 bg-white/20 hover:bg-white/30 px-6 py-3 rounded-xl font-semibold transition-all duration-300"
           >
             <FiPhone className="text-xl" />
