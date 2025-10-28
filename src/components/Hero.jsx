@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto border-b-2">
+    <section className="max-w-7xl mx-auto border-b-2"id="home">
       <div className="flex flex-col items-center my-20">
         <h1 className="text-xl lg:text-[5rem] p-2 uppercase font-bold">
           {HERO_CONTENT.title}
