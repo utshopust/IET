@@ -122,46 +122,46 @@ export const PORTFOLIO_PROJECTS = [
 ];
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with Motor Vehicle Engineering. We take pride in our work and are committed to delivering top-notch home renovation services.",
+  text: "Hear what our clients have to say about their experiences with Motor Vehicle Engineering. We take pride in our work and are committed to delivering top-notch Vehicle services.",
   reviews: [
     {
       name: "Alice Johnson",
-      title: "Homeowner",
+      title: "Car-owner",
       review:
         "Motor Vehicle Engineering transformed  into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
       image: user1,
     },
     {
       name: "Bob Smith",
-      title: "Homeowner",
+      title: "Car-owner",
       review:
-        "My Card renovation was seamless, thanks to Motor Vehicle Engineering. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
+        "My Car renovation was seamless, thanks to Motor Vehicle Engineering. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
       image: user2,
     },
     {
       name: "Carla Mendes",
-      title: "Homeowner",
+      title: "Car-owner",
       review:
-        "Motor Vehicle Engineering helped us create the perfect Car. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
+        "Motor Vehicle Engineering helped us create the perfect Car. Their creativity and craftsmanship turned our Car into a beautiful Masterpiece. It's now our favorite vehicle.",
       image: user3,
     },
     {
       name: "David Lee",
-      title: "Homeowner",
+      title: "Car-owner",
       review:
-        "The Car update exceeded our expectations. Motor Vehicle Engineering team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
+        "The Car update exceeded our expectations. Motor Vehicle Engineering team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our vehicle.",
       image: user4,
     },
     {
       name: "Ella Fernandez",
-      title: "Homeowner",
+      title: "Car-owner",
       review:
-        "From start to finish, Motor Vehicle Engineering was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
+        "From start to finish, Motor Vehicle Engineering was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. my vehicle  is now a stylish and functional Automobile.",
       image: user5,
     },
     {
       name: "Frank Wilson",
-      title: "Homeowner",
+      title: "Car-owner",
       review:
         "Motor Vehicle Engineering did an amazing job on our Car conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
       image: user6,
