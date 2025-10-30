@@ -70,7 +70,7 @@ const Footer = () => {
               Phone: +8801906484869
             </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Email: info@iet.org.bd.com
+              Email: motorvehicleengg@gmail.com
             </p>
           </div>
 

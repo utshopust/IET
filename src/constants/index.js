@@ -177,7 +177,7 @@ export const CONTACT_INFO = {
   },
   email: {
     label: "Email",
-    value: "info@iet.org.bd.com",
+    value: "motorvehicleengg@gmail.com",
   },
   address: {
     label: "Address",
