@@ -25,7 +25,12 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="max-w-7xl mx-auto border-b-2" id="portfolio">
+    <section 
+    // className="max-w-7xl mx-auto border-b-2"
+    className="relative max-w-7xl mx-auto py-4 overflow-hidden
+  before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full 
+  before:h-px before:bg-gradient-to-r before:from-transparent before:via-gray-300 before:to-transparent" 
+    id="portfolio">
       <div className="mb-20">
         <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mt-20 mb-12">
           portfolio

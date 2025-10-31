@@ -14,7 +14,8 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="relative max-w-7xl mx-auto px-4 py-20 border-b-2 overflow-hidden"
+      // className="relative max-w-7xl mx-auto px-4 py-20 border-b-2 overflow-hidden"
+      className="relative max-w-7xl mx-auto px-4 py-20 overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-gradient-to-r after:from-transparent after:via-gray-300 after:to-transparent"
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 via-white to-gray-100"></div>

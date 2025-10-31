@@ -11,7 +11,12 @@ const Reviews = () => {
   const reviewData = REVIEWS.reviews;
 
   return (
-    <section className="max-w-7xl mx-auto border-b-2" id="reviews">
+    <section 
+    // className="max-w-7xl mx-auto border-b-2" 
+     className="relative max-w-7xl mx-auto py-4 overflow-hidden
+    before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full 
+    before:h-px before:bg-gradient-to-r before:from-transparent before:via-gray-300 before:to-transparent"
+    id="reviews">
       <div className="my-20">
         <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mb-12">
           Customer Reviews
